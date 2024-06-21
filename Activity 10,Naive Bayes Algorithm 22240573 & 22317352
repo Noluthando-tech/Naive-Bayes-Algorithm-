@@ -1,0 +1,73 @@
+Activity 10
+
+
+Group members
+Surname & Initial 	Student no
+Dube T	22317352
+Luthuli N	22240573
+
+
+
+
+Prior probability :
+P(yes)=number of yes / total instances
+             = 5/10
+             =0.5
+P(no)=number of yes / total instances
+             = 5/10
+             =0.5
+
+Likelihood probability :
+2.1 
+P(colour=red | apple=yes)=number of colour=red and apple=yes / number of apple=yes
+= 5/5
+=1
+
+P(size=small | apple=yes)=number of size=small and apple=yes / number of apple=yes
+= 3/5
+=0.6
+
+P(texture=rough | apple=yes)=number of texture=rough and apple=yes / number of apple=yes
+= 2/5
+=0.4
+
+P(weight=light | apple=yes)=number of weight=light and apple=yes / number of apple=yes
+= 2/5
+=0.4
+
+2.2 For no:
+P(colour=red | apple=no)=number of colour=red and apple=no / number of apple=no
+= 0/5
+=0
+
+P(size=small | apple=no)=number of size=small and apple=no / number of apple=no
+= 2/5
+=0.4
+
+P(texture=rough | apple=no)=number of texture=rough and apple=no / number of apple=no
+= 3/5
+=0.6
+
+P(weight=light | apple=no)=number of weight=light and apple=no / number of apple=no
+= 3/5
+=0.6
+
+
+Poster probability:
+3.1    1*0.6*0.4*0.4*0.5
+           =0.048
+
+3.2      0*0.4*0.6*0.6*0.5
+            =0
+
+Step4
+Normalise :
+4.1   P(apple=yes, colour=red, size=small, texture=rough, weight=light) = 0.048/0.048+0
+                                                                                                                                             =1
+
+4.2  P(apple=no, colour=red, size=small, texture=rough, weight=light) = 0/0.048+0
+                                                                                                                                           =0
+
+Step5 
+1+0=1
+Answer     Colour: Red    Size: Small  Texture: Rough Weight: Light is an apple
